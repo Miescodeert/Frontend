@@ -20,9 +20,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je startniveau:
   hier je startniveau (kies uit zwart, rood óf blauw)
+  Mijn startniveau is blauw. Ik ben niet goed in coderen en heb er moeite mee.
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
+  Ik wil de focus leggen op surfacce plane. Responce lijkt mij te lastig.
  
 </details>
 
