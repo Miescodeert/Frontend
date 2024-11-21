@@ -43,7 +43,7 @@ hier de naam van de pagina
 #### Screenshot(s) van de tweede pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/blog-pagina.PNG" width="375px" alt="blogpagina">
+ <img src="readme-images/blog-pagina-geheel.JPG" width="375px" alt="blogpagina">
 
 </details>
 
