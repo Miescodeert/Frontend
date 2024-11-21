@@ -38,7 +38,7 @@ https://www.bagelsbeans.nl/
 #### Screenshot(s) van de eerste pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/home-pagina.PNG" width="375px" alt="Homepagina">
+ <img src="readme-images/home-pagina-geheel.JPG" width="375px" alt="Homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
