@@ -14,15 +14,15 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 
 ### Auteur:
 
-Sanne 't Hooft (vervangen door jouw naam)
+Michelle stoutmeijer
 
 #### Je startniveau:
 
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
 
-hier je focus (kies uit responsive óf surface plane)
+surface plane
 
 </details>
 

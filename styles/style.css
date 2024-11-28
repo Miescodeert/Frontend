@@ -1,31 +1,59 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-
-
-
-
+section {
+  background-color: #ecd5ab;
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 0.75em 1.5em;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 9px #605f5f72;
+}
 
-
-
+.button1 {
+  background-color: #a64e17;
+}
+.button2 {
+  background-color: #afb376;
+}
+.button3 {
+  background-color: #55601c;
+}
+.button4 {
+  background-color: #ecd5ab;
+}
+.button5 {
+  background-color: #422918;
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
-
