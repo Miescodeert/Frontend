@@ -86,7 +86,6 @@ sommige tekst is blijkbaar een afbeelding
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Ik heb nog een paar vragen over de opbouw en verdeling van mijn site. Ook weet ik nog niet zo goed welke delen ik wel mag weglaten en welke niet.
 waar gebruik ik een h1 en waar een h2? zie Breakdownschets.
 
@@ -104,10 +103,12 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Hidden H1
+- Je kan een h2 gebruiken voor de overige kopjes in de sections op je pagina
+- maak een list voor de footer
+- Begin maken met je html en css
+- we hebben gekeken naar mijn breakdownschets
+- linkje gekregen voor carousel. Dit mag ik copy pasten en dan wel de bron vermelden
 
 </details>
 
@@ -118,7 +119,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb een begin gemaakt van mijn css om mezelf het idee te geven dat de website er al een beetje op kan lijken dmv kleur en de buttons te stijlen. Dit gaf mij weer moed. Ik heb namelijk erg moeiet emt coderen en er de motivatie voor te vinden. Ik ben al snel ontmoedigd.
+Wel heb ik vragen over hoe ik de animaties aan ga pakken.
+Vragen:
+
+- hoe ga ik een light en darkmode toepassen als bepaalde afbeeldingen een screenshot zijn. Ik kom dan in de knoei met achtergrond kleuren
+- hoe ga ik de animaties aanpakken
+- mag ik een geluid toevoegen aan knoppen?
+- 5 ideeen: geluid toevoegen, animatie, video, light/darkmode, en nog eentje maar ik weet nog niet welke.
+- ik wil nog even verder oefenen met de opdrachten en ik moet wat tutorials kijken
 
 ### Agenda voor meeting
 
@@ -134,10 +143,13 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- ahref link naar iets
+- button actie op de pagina zelf. bijv menu. WIJZIG AALE BUTTONS NAAR A. (moeten alle linkjes dan linken naar pagina 2?)
+- list voor footer. misschien een nav van maken. !!!! mag twee nav met lijstjes:
+- header spatie nav
+- footer spatie nav
+- werk aan de winkel
+- mbt achtergrondkleur en screenshot: het is dan maar even zo
 
 </details>
 
