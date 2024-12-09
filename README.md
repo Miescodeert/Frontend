@@ -54,9 +54,17 @@ hier de naam van de pagina
 
 ### Bevindingen
 
-Leest koppen voor
-leest heel snel voor
-sommige tekst is blijkbaar een afbeelding
+Bevindingen na de screenreader:
+
+- Leest koppen voor
+- leest heel snel voor
+- sommige tekst is blijkbaar een afbeelding
+
+bevindingen checklist:
+
+- a elementen en buttons gescheiden
+- site heeft een paar foutmeldingen
+- niet alle afbeeldingen hebben een alt tekst
 
 </details>
 
@@ -187,10 +195,11 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- leg de focus op html, zorg dat dat gereed is voor het mondeling
+- zie het mondeling als een tussenbeoordeling want herkansing wordt het sws
+- waarschijnlijk kan alles geplaatst worden aan de hand van flexbox
+- grid generator kan je gebruiken
+- img width 100% > hij wordt niet breder dan dat kan. het schaalt goed mee
 
 </details>
 
@@ -201,17 +210,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/schermafbeeldingsite.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Ik vond de breakdownschets maken verhelderend en kon daardoor gericht vragen stellen tijdens de feedbacksessies. Hier heb ik echt wat aan gehad.
+Ik heb ook geleerd hoe ik tekst schuin kan zetten en nieuwe inzichten opgedaan mbt toegankelijkheid. Voor mijn herkansing heb ik nog flink wat te doen.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+Ik vind coderen erg moeilijk en ik was gauw ontmoedigd. Ik ben veel tijd kwijt aan het oefenen met de oefeningen. Ik kan niks zelf uitwerken zonder de uitwerkingen ernaast. Hierdoor verloor ik de hoop en heb ik het vrij snel opgegeven omdat ik geen idee had waar te beginnen. Ik heb nu ook dingen in mijn html en css staan waar ik niks van begrijp en het werkt daarnaast ook niet. Zelfs code dat ik heb gekopieerd vanuit codepen werkt niet. En ik heb dan echt geen idee waar het mis gaat. Ik durf in de les dan ook niet zo goed om hulp te vragen, omdat ik nogal traag van begrip ben.
+Daarnaast is bijna niks gelukt van wat ik wou dus ik moet even kijken hoe ik dit ga aanpakken met mijn herkansing.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -225,8 +236,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
-
+1. Hulp ChatGPT. Prompt: Hoe zorg ik ervoor dat een afbeelding schuin komt te staan?
+2. code van DLO week 2 FED via codepen https://codepen.io/shooft/pen/JjQLVeB maar werkt niet en snap er niks van
+3. CAROUSEL via Thomas link gekregen naar code vanuit Codepen https://codepen.io/shooft/pen/QWKqzQj
+4. ChatGPT prompt: waarom wilt dit stukje tekst niet schuinstaan?
+5. hulp gehad van medestudent Bas. mbt margin-left in de min plaatsen
 </details>

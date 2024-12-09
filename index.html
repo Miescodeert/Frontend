@@ -9,11 +9,30 @@
 
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <!-- class hidden voor de h1-->
+      <nav>
+        <a href="index.html">logo</a>
+      </nav>
+
+      <!-- code van DLO week 2 FED via codepen https://codepen.io/shooft/pen/JjQLVeB  maar werkt niet en snap er niks van-->
+      <li aria-label="tekst naast 3 spans" piste="rood">
+        <button aria-expanded="false">
+          menu
+          <span></span>
+          <!-- ik heb geen idee wat al die spans hier doen?!-->
+          <span></span>
+          <span></span>
+        </button>
+      </li>
     </header>
 
     <main>
@@ -27,14 +46,15 @@
           langzaam genieten van pure gerechten, verse sappen en onze eigen
           kraakverse koffie.
         </p>
-        <button class="button button1">menukaart</button>
-        <button class="button button2">bestellen</button>
+        <a href="blog.html" class="button button1">menukaart</a>
+        <a href="blog.html" class="button button2">bestellen</a>
       </section>
 
-      <section>
+      <section class="ontdek">
         <!-- kom binnen en ontdek-->
-        <img src="" alt="" />
-        <h2>Kom binnen en... ontdek</h2>
+        <img src="images/koffiekopje.png" alt="koffiekop" />
+        <span>Kom binnen en...</span>
+        <h2>ontdek</h2>
         <p>
           Bagels & Beans is een plek waar iedereen zich beter gaat voelen. Een
           plek waar je de krant leest in het ochtendzonnetje en waar de koffie
@@ -42,42 +62,82 @@
           grootste toekomstideeën bedenkt of gewoon even in het nu bent.
           Iedereen is welkom.
         </p>
-        <button class="button button3">ons verhaal</button>
-        <img src="images/binnenkomen.png" alt="binnenkomen collage" />
+
+        <a href="blog.html" class="button button3">ons verhaal</a>
+        <img
+          src="images/binnenkomen.png"
+          alt="binnenkomen collage"
+          class="binnenkomen-img"
+        />
       </section>
 
-      <section>
+      <section class="zintuigen">
         <!-- verwonder je zintuigen-->
         <img
           src="images/zintuigen.png"
           alt="verwonder je zintuigen kunstwerk"
         />
-        <h2>Verwonder je zintuigen</h2>
+        <h2>
+          Verwonder <br />
+          je zintuigen
+        </h2>
         <p>
           Ontdek onze diverse selectie van ambachtelijke bagels, verleidelijke
           belegcombinaties en heerlijke drankjes voor een onvergetelijke
           ervaring.
         </p>
-        <button class="button button1">bekijk ons menu</button>
+        <a href="blog.html" class="button button1">bekijk ons menu</a>
       </section>
 
-      <section>
+      <section class="zenmasters">
         <!-- nieuwe special Zenmasters-->
+        <div class="top-section"></div>
+        <!--Ik wou adv de div twee achtergrond kleuren geven aan mijn section maar dit werkte niet helemaal-->
         <img src="images/sinaasappelsap.png" alt="sinaasappelsap" />
-        <h2>Nieuwe special Zenmasters</h2>
+        <span>Nieuwe special</span>
+        <h2>Zenmasters</h2>
         <p>
           Onze favorieten voor een stressvrije decembermaand! Ze zijn de
           perfecte favorieten voor een stressvrije decembermaand. Zin in wat
           zen? Bekijk hier onze Zenmasters, die je kunt bestellen in de
           vestiging of online!
         </p>
-        <button class="button button4">zenmasters</button>
-        <button>bestellen</button>
+        <a href="blog.html" class="button button4">zenmasters</a>
+        <a href="blog.html" class="bestellenKnop">Bestellen</a>
       </section>
 
       <section>
-        <!-- hier komt een carousel. weet nog niet welke code ik hiervoor moet gebruiken. Section in een section?-->
-        <button class="button button5">naar alle blogs</button>
+        <section
+          id="bolletjesAndSwipen"
+          class="caroCarrousel"
+          aria-label="Voorbeeld met bolletjes en swipen"
+          tabIndex="-1"
+        >
+          <!-- de id kun je zelf een naam geven en geef je mee in de js -->
+          <ul>
+            <li id="element1">
+              <img src="images/furry.jpg" alt="furry menu" />
+            </li>
+            <li id="element2">
+              <img
+                src="images/oprichters.jpg"
+                alt="oprichters bagels & beans"
+              />
+            </li>
+            <li id="element3">
+              <img src="images/koffie.jpg" alt="koffie" />
+            </li>
+          </ul>
+
+          <nav>
+            <ul>
+              <li><a href="#element1" aria-label="go to element1"></a></li>
+              <li><a href="#element2" aria-label="go to element2"></a></li>
+              <li><a href="#element3" aria-label="go to element3"></a></li>
+            </ul>
+          </nav>
+        </section>
+        <a href="blog.html" class="button button5">naar alle blogs</a>
       </section>
 
       <section>
@@ -88,20 +148,22 @@
           is je ambitie groter en wil je zelf een Bagels & Beans franchise
           beginnen?
         </p>
-        <button>vacatures</button>
-        <button class="button button1">eigen ondernemer</button>
+        <a href="blog.html" class="button button3">vacatures</a>
+        <a href="blog.html" class="button button1">eigen ondernemer</a>
         <img src="images/barista.png" alt="foto van barista" />
       </section>
     </main>
 
     <footer>
-      <ul>
-        <a href=""></a>
-        <a href=""></a>
-        <!-- Hoe ga ik dit indelen?-->
-        <!-- invulveld toevoegen-->
-        <button></button>
-      </ul>
+      <nav class="nav2">
+        <ul>
+          <a href="blog.html">Menukaart</a>
+          <a href="blog.html">Bestellen</a>
+          <a href="blog.html">Vestigingen</a>
+          <a href="blog.html">Werken bij</a>
+          <a href="blog.html">Bagelpower</a>
+        </ul>
+      </nav>
     </footer>
     <script defer src="scripts/script.js"></script>
   </body>
